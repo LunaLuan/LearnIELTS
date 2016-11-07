@@ -39,8 +39,10 @@
         <activity
             android:name=".activity.TongDiemActivity"
             android:label="Tổng điểm" />
-        <activity android:name=".activity.DangNhapActivity" />
-        <activity android:name=".activity.DangKyActivity"></activity>
+        <activity android:name=".activity.DangNhapActivity"
+            android:label="Đăng nhập"/>
+        <activity android:name=".activity.DangKyActivity"
+            android:label="Đăng ký"></activity>
     </application>
 
 </manifest>
